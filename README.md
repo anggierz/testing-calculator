@@ -1,27 +1,48 @@
-# TestingCalculator
+# 🧮 Testing Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+Este es un proyecto de una calculadora simple hecha con **Angular**. Permite realizar operaciones básicas (suma, resta, multiplicación) entre dos números y está completamente testeado usando el framework de pruebas de Angular.
 
-## Development server
+## 🔧 Tecnologías usadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Angular](https://angular.io/)
+- TypeScript
+- HTML & SCSS
+- Jasmine & Karma (para testing)
+- Angular CLI
 
-## Code scaffolding
+## 🚀 Características
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Interfaz moderna, responsiva y estilizada.
+- Operaciones básicas: suma, resta y multiplicación.
+- Pruebas unitarias para:
+  - Lógica de operaciones
+  - Estado inicial del componente
+  - Comprobación del resultado mostrado en el HTML tras interacciones
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ▶️ Instalación y ejecución
 
-## Running unit tests
+1. Clona el repositorio:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+git clone https://github.com/anggierz/testing-calculator.git
+cd testing-calculator
+```
 
-## Running end-to-end tests
+2. Instala dependencias
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm install
+```
 
-## Further help
+3. Ejecuta la aplicación
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng serve
+```
+
+4. Ejecuta los tests unitarios
+
+```bash
+ng test
+```
